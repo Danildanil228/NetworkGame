@@ -1,0 +1,10 @@
+﻿<Window x:Class="SquashGame.ModeSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mode Selection" Height="200" Width="300">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Select Mode:" FontSize="20" Margin="10" HorizontalAlignment="Center"/>
+        <Button Name="ServerButton" Content="Server" Width="100" Margin="5" Click="ServerButton_Click"/>
+        <Button Name="ClientButton" Content="Client" Width="100" Margin="5" Click="ClientButton_Click"/>
+    </StackPanel>
+</Window>
